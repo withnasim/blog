@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+<meta name="theme-color" content="#140F3D">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/najura.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Najura Blog home">
+      <span class="mark" aria-hidden="true">
+        <span class="gem g-red"></span><span class="gem g-yellow"></span>
+        <span class="gem g-cyan"></span><span class="gem g-purple"></span>
+      </span>
+      Najura <span style="color:var(--text-dim);font-weight:600">Blog</span>
+    </a>
+    <nav aria-label="Main">
+      <a href="https://games.najura.com/">Games</a>
+      <a href="/about/">About</a>
+      <a class="btn" href="https://najura.com/">Najura</a>
+    </nav>
+  </div>
+</header>
+<main class="page">
+  <div class="narrow">
+{{ content }}
+  </div>
+</main>
+<footer>
+  <div class="wrap">
+    <a class="brand" href="https://najura.com/">
+      <span class="mark" aria-hidden="true">
+        <span class="gem g-red"></span><span class="gem g-yellow"></span>
+        <span class="gem g-cyan"></span><span class="gem g-purple"></span>
+      </span>
+      Najura
+    </a>
+    <div class="links">
+      <a href="https://najura.com/">najura.com</a>
+      <a href="https://games.najura.com/">Games</a>
+      <a href="/about/">About</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="mailto:info.nasimreza@gmail.com">Contact</a>
+    </div>
+    <small>© {{ site.time | date: "%Y" }} Najura.</small>
+  </div>
+</footer>
+</body>
+</html>
