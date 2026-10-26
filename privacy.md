@@ -18,5 +18,5 @@ This policy covers the Najura Blog at blog.najura.com. Each of our games and app
 
 **Advertising.** If we show ads on this blog in the future, we'll update this policy first to explain how ad partners such as Google may use cookies.
 
-**Contact.** Questions? Email [info.nasimreza@gmail.com](mailto:info.nasimreza@gmail.com).
+**Contact.** Questions? Email our support team at [info@najura.com](mailto:info@najura.com).
 </div>

@@ -12,5 +12,5 @@ We build things we'd want to use ourselves: easy to learn, beautiful to look at,
 
 **Our games:** [Brickwise](https://games.najura.com/#brickwise), [Potion Pour](https://games.najura.com/#potionpour) and [Peep](https://games.najura.com/#peep) (coming soon). They're on Google Play today, and iPhone and iPad versions are planned.
 
-**Get in touch:** we read every message at [info.nasimreza@gmail.com](mailto:info.nasimreza@gmail.com).
+**Support:** questions, feedback or found a bug? Email us at [info@najura.com](mailto:info@najura.com).
 </div>
