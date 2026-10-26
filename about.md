@@ -1,12 +1,12 @@
 ---
 layout: default
 title: About
-description: Najura is a small independent studio making cozy offline puzzle games and simple, friendly apps.
+description: Najura, a brand of Najuvia LLC, makes cozy offline puzzle games and simple, friendly apps.
 permalink: /about/
 ---
 <h1>About Najura</h1>
 <div class="prose" markdown="1">
-Najura is a small independent studio that makes cozy puzzle games and simple, friendly apps.
+Najura is the games and apps brand of Najuvia LLC, a small independent company. We make cozy puzzle games and simple, friendly apps.
 
 We build things we'd want to use ourselves: easy to learn, beautiful to look at, and kind to your time and privacy. Our games work offline, download fast and never ask you to make an account.
 
