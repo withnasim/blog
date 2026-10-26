@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+<h1>Najura <span class="gold">Blog</span></h1>
+<p class="lead">Puzzle tips, game guides and news from our little studio.</p>
+<div class="posts">
+{% for post in site.posts %}
+  <a class="post-card" href="{{ post.url }}">
+    <span class="meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
+  </a>
+{% endfor %}
+</div>
