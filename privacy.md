@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
+description: Privacy policy for the Najura Blog at blog.najura.com.
 permalink: /privacy/
 ---
 <h1>Privacy Policy</h1>

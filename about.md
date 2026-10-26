@@ -1,6 +1,7 @@
 ---
 layout: default
 title: About
+description: Najura is a small independent studio making cozy offline puzzle games and simple, friendly apps.
 permalink: /about/
 ---
 <h1>About Najura</h1>
